@@ -1,4 +1,3 @@
-import uuid from "node-uuid";
 export const generateId = () => {
-  return uuid.v4();
+  return Math.random().toString(32).substring(2);
 };

@@ -9,7 +9,7 @@ export const CompleteButton = ({ onClick, status }) => {
           style={{ backgroundColor: "#d7da2d", color: "#333333" }}
           onClick={onClick}
         >
-          進行中
+          状況
         </Button>
       );
     case 1:
@@ -18,7 +18,7 @@ export const CompleteButton = ({ onClick, status }) => {
           style={{ backgroundColor: "#53cd7a", color: "#ffffff" }}
           onClick={onClick}
         >
-          完了済
+          状況
         </Button>
       );
     default:
