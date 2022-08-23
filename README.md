@@ -15,7 +15,6 @@
 ## ライブラリ
 
 - React(CRA)
-- node-uuid
 - MUI(UI ライブラリ, 旧 MaterialUI)
 
 ## インストールと動作
