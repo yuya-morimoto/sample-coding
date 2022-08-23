@@ -15,7 +15,7 @@ export const TodoListTemplate = ({
       <List>
         {todoList.map((todoListItem) => (
           <TodoListItem
-            key={todoListItem.id}
+            key={`${todoListItem.id}-${todoListItem.status}`}
             data={todoListItem}
             onClickComplete={completeTodoListItem}
             onClickDelete={deleteTodoListItem}
